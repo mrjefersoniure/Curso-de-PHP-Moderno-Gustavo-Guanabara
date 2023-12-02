@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
        
     </header>
-    <main>
+    <main>    <link rel="stylesheet" href="style.css">
+
         
         <?php 
             $inicio = date("m-d-Y", strtotime("-7 days"));

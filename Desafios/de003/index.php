@@ -11,7 +11,7 @@
        
     </header>
     <main>
-        
+        <!-- Gerador de numero automatico-->
         <?php 
             $numero = mt_rand(1,100);
             echo "<p>Gere um numero entre ,<strong> 1 e 100</strong></p>";
