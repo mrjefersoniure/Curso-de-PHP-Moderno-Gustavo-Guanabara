@@ -20,7 +20,7 @@
             echo "<h1>Conversor de moedas v1.0</h1>";
 
             $padrao = numfmt_create("pt_BR", NumberFormatter::CURRENCY );
-            echo "<p>Seus ". numfmt_format_currency($padrao, $numero ,"BRL") ."equivalem a <strong>R\$" . numfmt_format_currency($padrao, $convert ,"USD") ."</strong></p>";
+            echo "<p>Seus ". numfmt_format_currency($padrao, $numero ,"BRL") ."equivalem a <strong>" . numfmt_format_currency($padrao, $convert ,"USD") ."</strong></p>";
             echo "<p><strong>A Cotação fixa de". numfmt_format_currency($padrao, $dola,"USD")."</p>"
 
          ?>

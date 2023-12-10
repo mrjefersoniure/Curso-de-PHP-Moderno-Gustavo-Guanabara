@@ -9,8 +9,8 @@
     <h1>Exemplo PHP</h1>
     <?php 
         date_default_timezone_set("America/Sao_Paulo");
-        echo "Hoje é dia ".date("d/M/Y");
-        echo"e a hora aual é ".date("G:i:s T");
+        echo "Hoje é ".date("d/M/Y");
+        echo" e a hora atual é ".date("G:i:s T");
     ?>
 </body>
 </html>

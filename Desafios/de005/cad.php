@@ -33,8 +33,8 @@
             //print do resultado
             echo "<h1>Conversor de moedas v2.0</h1>";
             $padrao = numfmt_create("pt_BR", NumberFormatter::CURRENCY );
-            echo "<p>Seus ". numfmt_format_currency($padrao, $numero ,"BRL") ."equivalem a <strong>" . numfmt_format_currency($padrao, $convert ,"USD") ."</strong></p>";
-            echo "<p><strong>A Cotação fixa de". numfmt_format_currency($padrao,$cotacao,"USD")."</p>"
+            echo "<p>Seus ". numfmt_format_currency($padrao, $numero ,"BRL") ."equivalem a <strong> " . numfmt_format_currency($padrao, $convert ,"USD") ."</strong></p>";
+            echo "<p><strong>A Cotação fixa de ". numfmt_format_currency($padrao,$cotacao,"USD")."</p>"
             
          ?>
          <button type="button"><a href="javascript:history.go(-1)">⬅Voltar </a></button>
