@@ -12,6 +12,7 @@
         $divisor =  $_GET['d2'] ?? 1;
     ?>
     <main>
+
         <h1>Anatomia de uma Divisão</h1>
         <form action="" method="get">
           <label for="d1">Dividendo</label>
@@ -20,6 +21,7 @@
           <input type="number" name="d2" id="d2"  min="1"value="<?= $divisor ?>">
           <input type="submit" value="Analisar">
         </form>
+    
     </main>
     <section>
         <h2>Estrutura da Divisão</h2>
