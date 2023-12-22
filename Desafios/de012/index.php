@@ -15,42 +15,55 @@
     -->
 
     <?php 
-        $preco = $_REQUEST['preco'] ?? '0';
-        $percent = $_REQUEST['percent'] ?? '0';
+        $total = $_REQUEST['time'] ?? '0';
+        $sobra = $total;
         
         
     ?>
     <main>
         <h1>Reajustador de Preços</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
-            <label for="preco">Data de Nascimento</label>
-            <input type="number" name="preco" id="preco" value="<?= $preco ?>" min="0.10" step="0.01">
+            <label for="time">Digite uma quantia em Segundos</label>
+            <input type="number" name="time" id="time" value="<?= $total ?>" min="0" >
             
-            <label for="percent"> Qual será o percentual de reajuste <strong><span id="p">?</span>%</strong></label>
-            <input type="range" name="percent" id="percent" min="0" max="100" step="1" oninput="mudaValor()" value="<?= $percent ?>">
-        
+      
             
-            <input type="submit" value="Reajustar">
+            <input type="submit" value="calcular">
         </form>
     </main>
             <?php 
-                
-                $aumento = ($preco * $percent) / 100 ;
-                $novoVal = $preco + $aumento;
+                //semana                
+                $semana = (int)($sobra / 604_800);
+                $sobra = $sobra % 604_800;
+                //dia
+                $dia = (int)($sobra / 86_400);
+                $sobra = $sobra % 86_400;
+                //hora
+                $hora = (int)($sobra / 3_600);
+                $sobra = $sobra % 3_600;
+                //minuros
+                $min = (int)($sobra / 60);
+                $sobra = $sobra % 60;
+                //segundos
+                $seg =  $sobra
+
             ?>
+           
         <section>
-            <h1>Resultado do reajuste é</h1>
-                  
-               
-               <p>O produto que custava <strong>R$<?=number_format($preco,2 ,",",".")?></strong> com <strong><?=$percent?>%</strong> de aumento vai passar a custar <strong>R$  <?=number_format($novoVal,2 ,",",".")?> </strong> a partir de agora</p>
+            <h1>Resultado</h1>
+            <?php 
+                echo"Analisando o valor que você digitou <strong>$total</strong> de segundos equivalem a:<br>
+                <ul>
+                <li><strong>$semana</strong> semanas</li>
+                <li> <strong>$dia</strong> dias</li>
+                <li><strong>$hora</strong> horas</li>
+                <li><strong>$min</strong> minutos</li>
+                <li><strong>$seg</strong> segundos </li>
+            </ul>";
+            ?>
                 
         </section>
-        <script>
-            mudaValor();
-            function mudaValor() {
-                p.innerText = percent.value;
-            }
-        </script>
+
 
 </body>
 </html>
