@@ -10,19 +10,19 @@
 
 | Resolução dos Exercicios  | link de cada Exercicio |
 |--------|-------|
-|Desfios 01|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de001)|
-|Desfios 02|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de002)|
-|Desfios 03|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de003)|
-|Desfios 04|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de004)|
-|Desfios 05|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de005)|
-|Desfios 06|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de006)|
-|Desfios 07|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de007)|
-|Desfios 08|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de008)|
-|Desfios 09|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de009)|
-|Desfios 010|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de010)|
-|Desfios 011|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de011)|
-|Desfios 012|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de012)|
-|Desfios 013|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de013)|
+|Desfio 01|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de001)|
+|Desfio 02|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de002)|
+|Desfio 03|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de003)|
+|Desfio 04|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de004)|
+|Desfio 05|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de005)|
+|Desfio 06|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de006)|
+|Desfio 07|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de007)|
+|Desfio 08|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de008)|
+|Desfio 09|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de009)|
+|Desfio 010|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de010)|
+|Desfio 011|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de011)|
+|Desfio 012|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de012)|
+|Desfio 013|[Resolução](https://github.com/mrjefersoniure/estudos/tree/main/Desafios/de013)|
 
 
 ## 🔍 Espero ter te ajudado.
